@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+        "outDir": "dist",
+        "module": "es6",
+        "target": "es5",
+        "lib": ["ES2015", "DOM"],
+        "declaration": true,
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "strict": true,
+        "moduleResolution": "node"
+    }
+}
