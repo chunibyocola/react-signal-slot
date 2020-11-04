@@ -5,7 +5,7 @@ A simple way to trigger the functions of other components.
 npm i react-signal-slot
 ```
 ## Usage
-```JavaScript
+```javascript
 import { useSignal, useSlot } from 'react-signal-slot';
 import { useCallback, useState, useRef } from 'react';
 
@@ -35,12 +35,12 @@ const B = () => {
 };
 ```
 ## API
-```JavaScript
+```javascript
 const signal = useSignal();
 signal('type-of-signal', param0, param1, param2...);
 ```
 This hook returns a function which can emit signal. The emit function can emit signal and params.
-```JavaScript
+```javascript
 useSlot('type-of-signal', fn);
 ```
 This hook will subscribe to the signal you want. When the signal is emitted, the "fn" will be triggered.
